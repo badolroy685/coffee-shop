@@ -22,7 +22,7 @@ const SignIn = () => {
             }
 
             //update last sign in to the database
-            fetch('http://localhost:3000/users',{
+            fetch('coffee-store-server-rho-six.vercel.app/users',{
                 method: 'PATCH',
                 headers:{
                     'content-type' : 'application/json'
